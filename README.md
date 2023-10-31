@@ -20,6 +20,12 @@ This script is utilized in the context of my Azure Sentinel configuration, where
 
 <h2>Walkthrough</h2>
 
+Turning off Firewall to allow incoming attacks <br/>
+<img src="https://i.imgur.com/PbuLVLd.png" height="80%" width="30%" alt="Open up Firewall"/>
+<img src="https://i.imgur.com/bA6KHyz.png" height="80%" width="30%" alt="Firewall Off"/>
+<br />
+<br />
+
 Virtual Machine under attack from multiple locations <br/>
 <img src="https://i.imgur.com/MOYc8Pq.png" height="80%" width="80%" alt="Powershell ISE"/>
 <br />
@@ -31,7 +37,7 @@ Code used to display info on map  <br/>
 <br />
 
 <h2>World Map of incoming attacks</h2>
-<img src="https://i.imgur.com/vbx7950.png" height="80%" width="80%" alt="Azure Attack Map"/>
+<img src="https://i.imgur.com/i9mCBAv.png" height="80%" width="80%" alt="Azure Attack Map"/>
 
 
 <!--
