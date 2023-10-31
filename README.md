@@ -20,9 +20,8 @@ This script is utilized in the context of my Azure Sentinel configuration, where
 
 <h2>Walkthrough</h2>
 
-<p align="center">
-Launch the utility: <br/>
-<img src="https://i.imgur.com/62TgaWL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Virtual Machine under attack from multiple locations <br/>
+<img src="https://i.imgur.com/MOYc8Pq.png" height="80%" width="80%" alt="Powershell ISE"/>
 <br />
 <br />
 Select the disk:  <br/>
@@ -50,6 +49,7 @@ Observe the wiped disk:  <br/>
 </p>
 
 <h2>World Map of incoming attacks</h2>
+<img src="https://i.imgur.com/vbx7950.png" height="80%" width="80%" alt="Azure Attack Map"/>
 
 
 <!--
