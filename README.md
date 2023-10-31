@@ -1,7 +1,10 @@
 <h1>Azure Failed RDP to IP Geolocation Honeypot Project</h1>
 
 <h2>Description</h2>
-Project consists of a simple PowerShell script that walks the user through "zeroing out" (wiping) any drives that are connected to the system. The utility allows you to select the target disk and choose the number of passes that are performed. The PowerShell script will configure a diskpart script file based on the user's selections and then launch Diskpart to perform the disk sanitization.
+The PowerShell script contained within this repository is designed to extract data from Windows Event Logs regarding unsuccessful RDP intrusion attempts. It then employs a third-party API to gather geographical data related to the origin of the attackers.
+<br />
+<br />
+This script is utilized in the context of my Azure Sentinel configuration, where it is connected to a live virtual machine serving as a decoy for potential cyberattacks. I have personally witnessed live attacks, particularly RDP brute force attacks, originating from various locations worldwide. To visualize this information, I utilized a custom PowerShell script to retrieve the geographic information of the attackers and visualize it on an Azure Sentinel map.
 <br />
 
 
@@ -14,11 +17,8 @@ Project consists of a simple PowerShell script that walks the user through "zero
 - <b>PowerShell: Extract RDP failed logon logs from Windows Event Viewerl</b> 
 - <b>ipgeolocation.io: IP Address to Geolocation API</b>
 
-<h2>Environments Used </h2>
 
-- <b>Windows 10</b> (21H2)
-
-<h2>Program walk-through:</h2>
+<h2>Walkthrough</h2>
 
 <p align="center">
 Launch the utility: <br/>
